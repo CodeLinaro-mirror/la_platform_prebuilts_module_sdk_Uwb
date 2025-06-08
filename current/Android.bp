@@ -105,6 +105,12 @@ license {
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
 
+license {
+    name: "uwb-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
+}
+
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.uwb-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "uwb_module" is true.
