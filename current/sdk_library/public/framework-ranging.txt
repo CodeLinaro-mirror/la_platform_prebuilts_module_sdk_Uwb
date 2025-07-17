@@ -113,12 +113,12 @@ package android.ranging {
   }
 
   public final class RangingSession implements java.lang.AutoCloseable {
-    method @RequiresPermission("android.permission.RANGING") public void addDeviceToRangingSession(@NonNull android.ranging.RangingConfig);
-    method @RequiresPermission("android.permission.RANGING") public void close();
-    method @RequiresPermission("android.permission.RANGING") public void reconfigureRangingInterval(@IntRange(from=0, to=255) int);
-    method @RequiresPermission("android.permission.RANGING") public void removeDeviceFromRangingSession(@NonNull android.ranging.RangingDevice);
-    method @NonNull @RequiresPermission("android.permission.RANGING") public android.os.CancellationSignal start(@NonNull android.ranging.RangingPreference);
-    method @RequiresPermission("android.permission.RANGING") public void stop();
+    method @RequiresPermission(android.Manifest.permission.RANGING) public void addDeviceToRangingSession(@NonNull android.ranging.RangingConfig);
+    method @RequiresPermission(android.Manifest.permission.RANGING) public void close();
+    method @RequiresPermission(android.Manifest.permission.RANGING) public void reconfigureRangingInterval(@IntRange(from=0, to=255) int);
+    method @RequiresPermission(android.Manifest.permission.RANGING) public void removeDeviceFromRangingSession(@NonNull android.ranging.RangingDevice);
+    method @NonNull @RequiresPermission(android.Manifest.permission.RANGING) public android.os.CancellationSignal start(@NonNull android.ranging.RangingPreference);
+    method @RequiresPermission(android.Manifest.permission.RANGING) public void stop();
   }
 
   public static interface RangingSession.Callback {
