@@ -38,8 +38,6 @@ android/ranging/uwb/UwbRangingCapabilities
 android/ranging/uwb/UwbRangingParams
 android/ranging/wifi/rtt/RttRangingCapabilities
 android/ranging/wifi/rtt/RttRangingParams
-android/ranging/wifi/rtt/RttStationRangingCapabilities
-android/ranging/wifi/rtt/RttStationRangingParams
 android/ranging/wifi/rtt/WifiRttConstants
 android/uwb/AdapterState
 android/uwb/AdapterStateListener
@@ -58,7 +56,7 @@ android/uwb/IUwbRangingCallbacks
 android/uwb/IUwbVendorUciCallback
 android/uwb/LogicalLinkConnectionParams
 android/uwb/LogicalLinkConnectionRequest
-android/uwb/LogicalLinkCreationParams
+android/uwb/LogicalLinkParams
 android/uwb/MeasurementStatus
 android/uwb/RangingChangeReason
 android/uwb/RangingManager
