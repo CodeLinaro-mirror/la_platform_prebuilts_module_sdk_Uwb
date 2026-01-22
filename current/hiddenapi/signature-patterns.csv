@@ -1,5 +1,6 @@
 android/ranging/CapabilitiesListener
 android/ranging/DataNotificationConfig
+android/ranging/DlTdoaMeasurement
 android/ranging/IRangingAdapter
 android/ranging/IRangingCallbacks
 android/ranging/IRangingCapabilitiesCallback
@@ -30,15 +31,20 @@ android/ranging/oob/OobHandle
 android/ranging/oob/OobInitiatorRangingConfig
 android/ranging/oob/OobResponderRangingConfig
 android/ranging/oob/TransportHandle
+android/ranging/raw/RawDtTagRangingConfig
 android/ranging/raw/RawInitiatorRangingConfig
 android/ranging/raw/RawRangingDevice
 android/ranging/raw/RawResponderRangingConfig
+android/ranging/uwb/DlTdoaRangingParams
 android/ranging/uwb/UwbAddress
 android/ranging/uwb/UwbComplexChannel
 android/ranging/uwb/UwbConstants
 android/ranging/uwb/UwbRangingCapabilities
 android/ranging/uwb/UwbRangingParams
 android/ranging/uwb/UwbSpecificData
+android/ranging/wifi/pd/WifiPdConstants
+android/ranging/wifi/pd/WifiPdRangingCapabilities
+android/ranging/wifi/pd/WifiPdRangingParams
 android/ranging/wifi/rtt/RttRangingCapabilities
 android/ranging/wifi/rtt/RttRangingParams
 android/ranging/wifi/rtt/RttStationRangingCapabilities
