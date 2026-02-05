@@ -4,7 +4,6 @@ android/ranging/DlTdoaMeasurement
 android/ranging/IRangingAdapter
 android/ranging/IRangingCallbacks
 android/ranging/IRangingCapabilitiesCallback
-android/ranging/MotionState
 android/ranging/RangingCapabilities
 android/ranging/RangingConfig
 android/ranging/RangingData
@@ -19,10 +18,10 @@ android/ranging/RangingSessionManager
 android/ranging/SensorFusionParams
 android/ranging/SessionConfig
 android/ranging/SessionHandle
-android/ranging/ble/BleSpecificData
 android/ranging/ble/cs/BleCsConstants
 android/ranging/ble/cs/BleCsRangingCapabilities
 android/ranging/ble/cs/BleCsRangingParams
+android/ranging/ble/cs/BleCsSpecificData
 android/ranging/ble/rssi/BleRssiConstants
 android/ranging/ble/rssi/BleRssiRangingCapabilities
 android/ranging/ble/rssi/BleRssiRangingParams
@@ -84,12 +83,5 @@ android/uwb/UwbFrameworkInitializer
 android/uwb/UwbManager
 android/uwb/UwbOemExtensionCallbackListener
 android/uwb/UwbVendorUciCallbackListener
-android/uwb/timesync/BleTimestamp
-android/uwb/timesync/CccDkTimeSync
-android/uwb/timesync/IBleLmpEventListener
-android/uwb/timesync/ICccDkTimeSync
-android/uwb/timesync/IEventCallback
-android/uwb/timesync/IVersionListener
-android/uwb/timesync/Version
 android/uwb/util/**
 com/android/x/**
