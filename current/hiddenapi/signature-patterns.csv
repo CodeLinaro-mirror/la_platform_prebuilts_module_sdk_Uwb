@@ -84,12 +84,9 @@ android/uwb/UwbFrameworkInitializer
 android/uwb/UwbManager
 android/uwb/UwbOemExtensionCallbackListener
 android/uwb/UwbVendorUciCallbackListener
-android/uwb/timesync/BleTimestamp
-android/uwb/timesync/CccDkTimeSync
-android/uwb/timesync/IBleLmpEventListener
-android/uwb/timesync/ICccDkTimeSync
-android/uwb/timesync/IEventCallback
-android/uwb/timesync/IVersionListener
-android/uwb/timesync/Version
+android/uwb/timesync/ITimesyncCallbackListener
+android/uwb/timesync/TimesyncCallback
+android/uwb/timesync/TimesyncCallbackListener
+android/uwb/timesync/TimesyncEvent
 android/uwb/util/**
 com/android/x/**
