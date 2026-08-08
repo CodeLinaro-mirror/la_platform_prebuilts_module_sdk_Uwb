@@ -451,6 +451,7 @@ Landroid/ranging/raw/RawDtTagRangingConfig$Builder;->build()Landroid/ranging/raw
 Landroid/ranging/raw/RawDtTagRangingConfig;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
 Landroid/ranging/raw/RawDtTagRangingConfig;->describeContents()I,public-api,system-api,test-api
 Landroid/ranging/raw/RawDtTagRangingConfig;->getDtTag()Landroid/ranging/raw/RawRangingDevice;,public-api,system-api,test-api
+Landroid/ranging/raw/RawDtTagRangingConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/ranging/raw/RawDtTagRangingConfig;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/ranging/raw/RawInitiatorRangingConfig$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/ranging/raw/RawInitiatorRangingConfig$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
