@@ -24,8 +24,8 @@ android/ranging/ble/cs/BleCsConstants
 android/ranging/ble/cs/BleCsRangingCapabilities
 android/ranging/ble/cs/BleCsRangingParams
 android/ranging/ble/rssi/BleRssiConstants
-android/ranging/ble/rssi/BleRssiRangingCapabilities
 android/ranging/ble/rssi/BleRssiRangingParams
+android/ranging/location/LocationRangingParams
 android/ranging/oob/DeviceHandle
 android/ranging/oob/IOobSendDataListener
 android/ranging/oob/OobHandle
@@ -36,6 +36,7 @@ android/ranging/raw/RawDtTagRangingConfig
 android/ranging/raw/RawInitiatorRangingConfig
 android/ranging/raw/RawRangingDevice
 android/ranging/raw/RawResponderRangingConfig
+android/ranging/uwb/DlTdoaPacketParser
 android/ranging/uwb/DlTdoaRangingParams
 android/ranging/uwb/UwbAddress
 android/ranging/uwb/UwbComplexChannel
@@ -87,6 +88,7 @@ android/uwb/UwbVendorUciCallbackListener
 android/uwb/timesync/ITimesyncCallbackListener
 android/uwb/timesync/TimesyncCallback
 android/uwb/timesync/TimesyncCallbackListener
+android/uwb/timesync/TimesyncConfig
 android/uwb/timesync/TimesyncEvent
 android/uwb/util/**
 com/android/x/**
